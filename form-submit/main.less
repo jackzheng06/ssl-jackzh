@@ -1,0 +1,145 @@
+@default-font:"brandon-grotesque", "source-han-sans-simplified-c";
+
+body {
+  margin:0;
+  padding:0;
+  background-image:url(../image/background.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+#cover-container {
+  width:100%;
+  height:auto;
+  min-height:100%;
+}
+
+#cnzz_stat_icon_1257061730 {
+  display:none;
+}
+
+form {
+  width:70%;
+  margin-left:15%;
+  position:relative;
+  left:-10px;
+  background-color:rgba(255,255,255,0.7);
+  padding:50px;
+  box-shadow:rgba(0,0,0,0.5) 0 0 30px;
+  padding-bottom:300px;
+  padding-top:130px;
+}
+
+.default-text {
+  width:100%;
+  font-size:1.2em;
+  padding:10px;
+  font-family:@default-font;
+  border:#E0E0E0 1px solid;
+  border-radius:3px;
+  outline:none;
+  &:focus {
+    border:#1565C0 1px solid;
+  }
+}
+
+.default-textarea {
+  width:100%;
+  font-size:1.2em;
+  padding:10px;
+  height:200px;
+  font-family:@default-font;
+  border:#E0E0E0 1px solid;
+  border-radius:3px;
+  outline:none;
+  &:focus {
+    border:#1565C0 1px solid;
+  }
+}
+
+label {
+  display:inline-block;
+  margin-bottom:10px;
+  margin-top:10px;
+  font-family:@default-font;
+  .gray-span {
+    color:#616161;
+    font-size:0.8em;
+  }
+}
+
+h1 {
+  text-align:center;
+  width:100%;
+  font-family:@default-font;
+  font-size:40px;
+  font-weight:100;
+  width:100%;
+  text-align:center;
+  background-color:#283593;
+  color:white;
+  position:absolute;
+  top:0;
+  left:0;
+  line-height:120px;
+  height:120px;
+  margin:0;
+  z-index:99;
+  box-shadow:rgba(0,0,0,0.25) 0 0 50px;
+  position:fixed;
+  opacity:0.9;
+}
+
+button {
+  width:100%;
+  padding:10px;
+  margin-left:10px;
+  margin-bottom:50px;
+  margin-top: 30px;
+  font-size:1.2em;
+  background-color:#E0E0E0;
+  border:none;
+  &:hover {
+    background-color:#BDBDBD;
+  }
+}
+
+h2 {
+  font-family:@default-font;
+  font-weight:100;
+}
+
+p {
+  width:100%;
+  text-align:left;
+  font-family:@default-font;
+  line-height:30px;
+}
+
+#catpcha-container {
+  width:100%;
+  text-align:center;
+  padding:20px 0 20px 0;
+}
+
+ol {
+  li {
+    font-family:@default-font;
+    line-height:30px;
+  }
+}
+
+#fixed-chara {
+  position:fixed;
+  left:0;
+  bottom:0;
+  pointer-events:none;
+}
+
+#fixed-chara2 {
+  position:fixed;
+  z-index:99;
+  right:0;
+  bottom:0;
+  pointer-events:none;
+}
